@@ -12,7 +12,7 @@
     (memory data
             (address (#xc000 . #xcfff))
             (section cstack heap zdata))
-    (block cstack (size #x800))               ; C stack size
+    (block cstack (size #x600))               ; C stack size
     (block stack  (size #x100))               ; machine stack size
-    (block heap   (size #x800))               ; heap size
+    (block heap   (size #x200))               ; heap size
     ))
